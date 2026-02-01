@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url("img/mapa.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*altura*/
+    display: flex;
+    /*mostrar / flexível */
+    align-items: center;
+    /*alinhar os itens ao centro */
+    justify-content: center;
+
+}
+
+.caixa-maior {
+    background-color: #000000f2;
+    width: 450px;
+    /*largura */
+    border-radius: 25px;
+    /* arredondar borda */
+    padding: 20px;
+    /* espaçamento interno */
+
+}
+
+.input-texto {
+    width: 100%;
+    height: 100px;
+    border: none;
+    /* borda / none = nada, nenhuma */
+    outline: none;
+    /* borda quando eu clico nele*/
+    background-color: #ffffff1a;
+    border-radius: 15px;
+    color: #ffffff;
+    /*Cor do texto*/
+    font-size: 16px;
+    /*tamanho da fonte*/
+    padding: 15px;
+
+}
+
+.idioma {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    background-color: #ffffff1a;
+    color: #aaaaa9;
+
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    /*coloca a mãozinha*/
+    background-color: #ffffff1a;
+
+}
+
+.controle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.resultado {
+    padding: 15px;
+    background-color: #ffffff1a;
+    border-radius: 15px;
+}
+
+.titulo-tradução {
+    color: #ffffff99;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+
+.tradução {
+    color: #ffffff;
+    font-size: 12px;
+
+}

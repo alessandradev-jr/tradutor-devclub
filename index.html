@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Tradutor DavClub </title>
+
+</head>
+
+<body>
+
+    <div class="caixa-maior">
+
+
+        <textarea class="input-texto"> </textarea>
+
+        <div class="controle">
+            <select class="idioma">
+                <option value="EN">Inglês</option>
+                <option value="JA">Japonês</option>
+                <option value="ES">Espanhol</option>
+                <option value="FR">Francês</option>
+                <option value="IT">Italiano</option>
+            </select>
+
+            <button onclick="traduzir()">
+                <img src="img/traduzir.svg">
+            </button>
+
+            <button class="btn-audio">
+                <img src="img/microfone.svg">
+            </button>
+
+        </div>
+
+        <div class="resultado">
+            <H3 class="titulo-tradução">Tradução</H3>
+            <p class="tradução">A tradução aparecerá aqui...</p>
+        </div>
+
+
+    </div>
+</body>
+
+<script src="scripts.js">
+
+</script>
+
+</html>
